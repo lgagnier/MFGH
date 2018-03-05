@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		xmlns:android = "http://schemas.android.com/apk/res/android"
@@ -42,8 +41,18 @@
 		<preference name="LoadingDialog" value="," />
 		<preference name="LoadUrlTimeoutValue" value="null" />
 		<platform name="ios">
+		<icon src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\icon\ios\icon-57.png" width="57" height="57" />
+		<icon src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\icon\ios\icon-72.png" width="72" height="72" />
 		</platform>
 		<platform name="android">
+		<icon src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\icon\android\icon-36-ldpi.png" qualifier="ldpi" />
+		<icon src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\icon\android\icon-48-mdpi.png" qualifier="mdpi" />
+		<icon src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\icon\android\icon-72-hdpi.png" qualifier="hdpi" />
+		<icon src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\icon\android\icon-96-xhdpi.png" qualifier="xhdpi" />
+		<splash src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\screen\android\screen-hdpi-portrait.png" qualifier="" />
+		<splash src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\screen\android\screen-hdpi-landscape.png" qualifier="" />
+		<splash src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\screen\android\screen-xhdpi-portrait.png" qualifier="" />
+		<splash src="file://C:\Users\04075.POR-LGAGNIER\Documents\GitHub\MFGH\www\res\screen\android\screen-xhdpi-landscape.png" qualifier="" />
 		</platform>
 		<platform name="winphone">
 		</platform>
